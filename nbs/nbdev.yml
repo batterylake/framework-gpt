@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "framework-gpt"
+  site-url: "https://batterylake.github.io/framework-gpt"
+  description: "A large language model built using the TAI framework"
+  repo-branch: main
+  repo-url: "https://github.com/batterylake/framework-gpt"
