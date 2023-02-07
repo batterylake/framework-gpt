@@ -1,0 +1,16 @@
+[tool.pdm]
+
+[project]
+name = "framework_gpt"
+version = "0.0.1"
+description = "Building a simple language model using the TAI framework and Andrej Karpathy's recent video"
+
+authors = [
+    {name = "Nick Clark", email = "nclark3@nd.edu"},
+]
+dependencies = [
+    "torch>=1.13.1",
+    "dvc>=2.43.4",
+]
+requires-python = ">=3.10"
+license = {text = "MIT"}

@@ -1,0 +1,7 @@
+stages:
+  raw_data:
+    cmd: python 00_bigram_dvc.ipynb
+    deps:
+    - 00_bigram_dvc.ipynb
+    - pdm.lock
+    - pyproject.toml
